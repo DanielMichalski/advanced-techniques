@@ -1,0 +1,21 @@
+Java NIO, czyli New Input/Output lub Non-blocking Input/Output jest dostępne od Javy 1.4 (JSR-51).
+Wraz z wydaniem Javy w wersji 7 API zostało znacząco rozbudowane – światło dzienne ujrzała
+implementacja NIO.2 (JSR-203). Dwie najistotniejsze zmiany wydane wraz z NIO.2 to asynchroniczne
+(nieblokujące) I/O oraz API dostępu do systemu plików (klasy z pakietów java.nio.file i
+java.nio.file.attribute). Poza tym dopracowano funkcjonalność już wcześniej dostępną w NIO
+(m.in. bufory, sockety).
+
+
+W niniejszym wpisie chciałbym skupić się na nowym Filesystem API, ponieważ wydaje mi się
+najciekawszą zmianą w podejściu do obsługi wejścia/wyjścia w Javie.
+
+W obsłudze wejścia/wyjścia aż do Javy 7 mieliśmy tak naprawdę tylko jedną klasę dedykowaną
+do realizacji wszystkich operacji w systemie plików – java.io.File. Każdy zapis, odczyt
+oraz dowolna operacja na plikach czy katalogach musiała przejść bezpośrednio lub pośrednio
+przez java.io.File. W NIO.2 ta odpowiedzialność została rozbita na kilka klas i interfejsów,
+z których główne to interfejs java.nio.file.Path i klasa java.nio.file.Files.
+Jako najpoważniejsze wady „starego” IO wymienia się złą obsługę wyjątków (wiele metod nie
+rzucało wyjątków w razie niepowodzenia operacji), brak wsparcia dla symbolic link’ów,
+słabą obsługę metadanych plików, problemy z wydajnością w przypadku dużych katalogów.
+Nowe Filesystem API rozwiązuje powyższe problemy.Dołączony tekst
+Dołączony tekst

@@ -1,4 +1,4 @@
-package p_97_regex;
+package advanced_techniques.p_97_regex;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

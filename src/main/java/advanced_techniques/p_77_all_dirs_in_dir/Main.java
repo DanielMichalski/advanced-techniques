@@ -1,4 +1,4 @@
-package p_77_all_dirs_in_dir;
+package advanced_techniques.p_77_all_dirs_in_dir;
 
 import java.io.IOException;
 import java.nio.file.*;

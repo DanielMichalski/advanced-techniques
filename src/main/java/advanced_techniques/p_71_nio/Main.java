@@ -1,4 +1,4 @@
-package p_71_nio;
+package advanced_techniques.p_71_nio;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

@@ -1,4 +1,4 @@
-package p33_serializacja;
+package advanced_techniques.p33_serializacja;
 
 import java.io.Serializable;
 import java.util.Calendar;

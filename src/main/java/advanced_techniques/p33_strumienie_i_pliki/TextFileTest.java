@@ -1,14 +1,12 @@
-package p33_strumienie_i_pliki;
+package advanced_techniques.p33_strumienie_i_pliki;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 /**
  * Author: Daniel

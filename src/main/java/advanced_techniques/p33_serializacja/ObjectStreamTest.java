@@ -1,6 +1,4 @@
-package p33_serializacja;
-
-import p33_strumienie_i_pliki.*;
+package advanced_techniques.p33_serializacja;
 
 import java.io.*;
 

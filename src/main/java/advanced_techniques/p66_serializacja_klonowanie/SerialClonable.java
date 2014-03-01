@@ -1,4 +1,4 @@
-package p66_serializacja_klonowanie;
+package advanced_techniques.p66_serializacja_klonowanie;
 
 import java.io.*;
 

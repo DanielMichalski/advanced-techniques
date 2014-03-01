@@ -1,4 +1,4 @@
-package p33_strumienie_i_pliki;
+package advanced_techniques.p33_strumienie_i_pliki;
 
 import java.util.Calendar;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package a_beginers_guide.p_382_synchronize_methods;
+package a_beginers_guide.p_385_synchronize_blocks;
 
 /**
  * @author Daniel
@@ -6,7 +6,7 @@ package a_beginers_guide.p_382_synchronize_methods;
 public class SumAray {
     int sum;
 
-    public synchronized int sumArray(int nums[]) {
+    public int sumArray(int nums[]) {
         sum = 0;
 
         for (int num : nums) {
